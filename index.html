@@ -2,19 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
+    <title>Gardens in France</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+    <h1>Bonjour!</h1>
+    <img src="photos/eiffel.jpg" alt="photograph of the eiffel tower">
+    <ul>
+      <li>Established: 2011</li>
+      <li>Location: Paris, France</li>
+      <li>specialties: Bouquets, Terreriums, & Succulents</li>
+    </ul>
+    <h2>Introduction</h2>
+      <p>Hello! I am a garderner that has planted their roots in the beautful city of Paris, France! I enjoy making beautfiul bouquets, terreriums, and nurturing different types of tropical plants!</p>
+    <h3>About Me</h3>
+      <p>I am a 34 year old woman who was born and raised here in France. I moved into Paris when I was 23 after I graduated from University. I always had a love for plants,and eventually decided to open up my own plant store!</p>
+    <h4>End Notes</h4>
+      <p>Thank you so much for your time! Feel free to come by the shop or contact me below!</p>
+    <section>
+      <h2>Contact Me!</h2>
+      <form>
+          <label>
+              Name:
+              <input type="text">
+          </label>
+          <label>
+              Email Address:
+              <input type="text">
+          </label>
+          <label>
+            Phone Number:
+            <input type="text">
+          </label>
+          <label>Reason:</label>
+          <select id="Reason" name="Reason">
+              <option>Bouquet request</option>
+              <option selected>Event catering</option>
+              <option>Bulk orders</option>
+              <option>Inquires</option>
+          </select>
+          <label>Comments:</label>
+          <textarea id="comments">
+          </textarea>
+          <button>Submit</button>  
+      </form>
+  </section>
   </body>
 </html>
